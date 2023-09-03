@@ -12,3 +12,4 @@ else
 {
     System.Console.WriteLine(num + " -> не четное ");
 }
+
