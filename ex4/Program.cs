@@ -22,7 +22,11 @@ if (int.TryParse(Console.ReadLine(), out int num))
     {
         for (int i = 2; i <= num; i += 2)
         {
-            System.Console.Write(i + " ");
+            System.Console.Write(i);
+            if (i < num - 1) // Проверка, не является ли текущее число предпоследним числом
+            {
+                System.Console.Write(",");
+            }
         }
     }
 }
